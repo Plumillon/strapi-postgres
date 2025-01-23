@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Picture": {
+    "picture": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -25,6 +25,10 @@
         "videos",
         "audios"
       ]
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_question_question_infos",
   "info": {
     "displayName": "Question info",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,6 +25,11 @@
     "weight": {
       "type": "integer",
       "default": 0
+    },
+    "uid": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
