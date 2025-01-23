@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "min": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "max": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "step": {
       "type": "float"

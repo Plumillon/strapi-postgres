@@ -4,7 +4,8 @@
   "info": {
     "singularName": "choice-question",
     "pluralName": "choice-questions",
-    "displayName": "Choice question"
+    "displayName": "Choice question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +20,8 @@
     "Choices": {
       "type": "component",
       "repeatable": true,
-      "component": "question.choice"
+      "component": "question.choice",
+      "required": true
     },
     "multiple": {
       "type": "boolean",
