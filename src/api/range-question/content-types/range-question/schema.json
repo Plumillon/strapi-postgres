@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "range_questions",
+  "info": {
+    "singularName": "range-question",
+    "pluralName": "range-questions",
+    "displayName": "Range question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "min": {
+      "type": "string"
+    },
+    "max": {
+      "type": "string"
+    },
+    "step": {
+      "type": "float"
+    },
+    "divisions": {
+      "type": "integer"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "question.question-info"
+    }
+  }
+}

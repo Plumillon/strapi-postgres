@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_questions",
+  "info": {
+    "singularName": "info-question",
+    "pluralName": "info-questions",
+    "displayName": "Info question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "question.question-info"
+    }
+  }
+}

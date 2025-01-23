@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "choice_questions",
+  "info": {
+    "singularName": "choice-question",
+    "pluralName": "choice-questions",
+    "displayName": "Choice question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "question.question-info"
+    },
+    "Choices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question.choice"
+    },
+    "multiple": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

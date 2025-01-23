@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_question_choices",
+  "info": {
+    "displayName": "Choice",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "boolean",
+        "free"
+      ],
+      "default": "boolean"
+    }
+  }
+}

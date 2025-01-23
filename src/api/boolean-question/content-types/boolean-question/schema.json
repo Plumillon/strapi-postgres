@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boolean_questions",
+  "info": {
+    "singularName": "boolean-question",
+    "pluralName": "boolean-questions",
+    "displayName": "Boolean question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "question.question-info"
+    }
+  }
+}

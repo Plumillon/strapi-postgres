@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_question_question_infos",
+  "info": {
+    "displayName": "Question info",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity"
+    },
+    "required": {
+      "type": "boolean",
+      "default": false
+    },
+    "weight": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
