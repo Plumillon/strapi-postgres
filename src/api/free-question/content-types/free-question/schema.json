@@ -21,7 +21,8 @@
       "type": "string"
     },
     "multiline": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "filter": {
       "type": "enumeration",
