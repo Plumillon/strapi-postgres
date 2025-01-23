@@ -4,7 +4,8 @@
   "info": {
     "singularName": "free-question",
     "pluralName": "free-questions",
-    "displayName": "Free question"
+    "displayName": "Free question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "info": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "question.question-info"
     },
     "hint": {
