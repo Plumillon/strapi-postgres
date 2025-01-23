@@ -23,7 +23,7 @@
       "type": "boolean",
       "default": false
     },
-    "weight": {
+    "index": {
       "type": "integer",
       "default": 0
     },
