@@ -15,7 +15,8 @@
     "info": {
       "type": "component",
       "repeatable": false,
-      "component": "question.question-info"
+      "component": "question.question-info",
+      "required": true
     },
     "Choices": {
       "type": "component",

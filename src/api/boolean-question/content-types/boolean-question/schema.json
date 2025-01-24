@@ -4,7 +4,8 @@
   "info": {
     "singularName": "boolean-question",
     "pluralName": "boolean-questions",
-    "displayName": "Boolean question"
+    "displayName": "Boolean question",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +15,8 @@
     "info": {
       "type": "component",
       "repeatable": false,
-      "component": "question.question-info"
+      "component": "question.question-info",
+      "required": true
     }
   }
 }
