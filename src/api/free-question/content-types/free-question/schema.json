@@ -30,7 +30,8 @@
       "enum": [
         "email",
         "phone",
-        "number"
+        "number",
+        "password"
       ]
     }
   }
